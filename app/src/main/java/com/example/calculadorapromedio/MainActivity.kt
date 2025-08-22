@@ -17,7 +17,7 @@ import kotlin.getValue
 import com.example.calculadorapromedio.viewmodel.MainViewModel
 
 class MainActivity : AppCompatActivity() {
-    private val viewModel: MainActivity by viewModels()
+    private val viewModel: MainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
